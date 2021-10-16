@@ -10,16 +10,6 @@ namespace Core.Selenium.Interface.Table
         /// <summary>
         /// Название колонки.
         /// </summary>
-        string? Name { get; set; }
-
-        /// <summary>
-        /// Метод нажатия на колонку сортировки.
-        /// </summary>
-        void Sort();
-
-        /// <summary>
-        /// Фильтрация по строке.
-        /// </summary>
-        IInput SearchInput { get; }
+        string? Name { get; set; }        
     }
 }
