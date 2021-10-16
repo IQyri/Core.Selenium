@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>9.0</LangVersion>
+
+    <AssemblyName>Core.Selenium</AssemblyName>
+    <RootNamespace>Core.Selenium</RootNamespace>
+
+    <Authors>MarchenkoND</Authors>
+    <Company>Security Code</Company>
+    <Copyright>Copyright © Security Code 2021</Copyright>
+    <PackageDescription>Библиотека для расширения работы с Selenium.</PackageDescription>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <!--Symbols -->
+  <PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="7.23.3" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Tools\Core.Tools.csproj" />
+  </ItemGroup>
+
+</Project>
